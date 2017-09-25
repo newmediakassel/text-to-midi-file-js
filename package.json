@@ -1,13 +1,14 @@
 {
-  "name": "elko-midi",
+  "name": "text-to-midi-file-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jörn Röder <me@joernroeder.de>",
+  "license": "MIT",
   "dependencies": {
     "jsmidgen": "github:joernroeder/jsmidgen"
   }
