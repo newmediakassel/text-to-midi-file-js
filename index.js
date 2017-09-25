@@ -9,10 +9,9 @@ const midiName = 'midi.mid'
 const map = {
     'a': [65, 63, 60],
     'b': [1, 2, 3],
-    '.': [64,56,34,23,4,2]
+    '.': [64, 56, 34, 23, 4, 2]
 }
 const mapKeys = Object.keys(map)
-console.log(mapKeys)
 
 // midi settings
 const noteLength = 64
@@ -25,9 +24,6 @@ const file = new Midi.File()
 const track = new Midi.Track()
 
 file.addTrack(track)
-
-console.log(source.length)
-
 
 for (let i = 0; i < source.length; i++) {
     const char = source.charAt(i)
